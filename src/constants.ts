@@ -1,20 +1,15 @@
 /**
- * Cloudinary Configuration
- * Replace 'YOUR_CLOUD_NAME' with your actual Cloudinary Cloud Name
+ * Axis Group Website Image Constants
+ * Paste your full Cloudinary URLs directly below.
  */
-export const CLOUDINARY_CONFIG = {
-  cloudName: "YOUR_CLOUD_NAME",
-  baseUrl: `https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/`,
-};
-
 export const IMAGES = {
-  hero: `${CLOUDINARY_CONFIG.baseUrl}hero_image`, 
-  jute: `${CLOUDINARY_CONFIG.baseUrl}jute_manufacturing`,
-  mining: `${CLOUDINARY_CONFIG.baseUrl}mining_operations`,
-  realEstate: `${CLOUDINARY_CONFIG.baseUrl}real_estate`,
-  warehousing: `${CLOUDINARY_CONFIG.baseUrl}warehousing`,
-  leadership: `${CLOUDINARY_CONFIG.baseUrl}leadership`,
-  about: `${CLOUDINARY_CONFIG.baseUrl}about_interior`,
+  hero: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776861901/6a5ce3fd-a3a1-4487-9c88-9f0b248e51d2.png", // Paste Hero image URL here
+  jute: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862097/5066c870-738f-45b1-a7ce-626820cbe2b5.png", // Paste Jute image URL here
+  mining: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862191/52e4f51e-e3f7-4f82-90ed-fc96c1977158.png", // Paste Mining image URL here
+  realEstate: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862707/e93387bf-b140-4b5c-b734-fb928e7088f0.png", // Paste Real Estate image URL here
+  warehousing: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862744/aac93a79-bccc-47a1-922e-27acc9803104.png", // Paste Warehousing image URL here
+  leadership: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776863007/51065f5e-65c6-4aff-bc91-49859fbaaae3.png", // Paste Leadership portrait URL here
+  about: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862967/05af8a48-b811-439f-9267-4b44bc52e637.png", // Paste About page image URL here
 };
 
 export const CONTENT = {

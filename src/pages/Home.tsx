@@ -290,7 +290,7 @@ const LeadershipSection = () => {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+              <div className="aspect-[2/2] rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src={IMAGES.leadership} 
                   alt="Leadership" 
