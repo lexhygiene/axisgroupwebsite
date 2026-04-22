@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 const Sustainability = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Sustainability & CSR | Axis Group - Building a Better Future";
   }, []);
 
   return (

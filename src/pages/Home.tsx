@@ -487,6 +487,10 @@ const ContactSection = () => {
 };
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Axis Group | Building Enduring Industrial Businesses";
+  }, []);
+
   return (
     <>
       <Hero />

@@ -11,7 +11,10 @@ const BusinessDetail = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [id]);
+    if (business) {
+      document.title = `${business.title} | Axis Group Industrial Verticals`;
+    }
+  }, [id, business]);
 
   if (!business) {
     return (
