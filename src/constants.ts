@@ -1,15 +1,20 @@
 /**
- * Axis Group Website Content Constants
+ * Cloudinary Configuration
+ * Replace 'YOUR_CLOUD_NAME' with your actual Cloudinary Cloud Name
  */
+export const CLOUDINARY_CONFIG = {
+  cloudName: "YOUR_CLOUD_NAME",
+  baseUrl: `https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/`,
+};
 
 export const IMAGES = {
-  hero: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2070", // Industrial/Modern
-  jute: "https://images.unsplash.com/photo-1621460245180-87364669888d?auto=format&fit=crop&q=80&w=2070", // Jute texture/factory
-  mining: "https://images.unsplash.com/photo-1578319439584-104c94d37305?auto=format&fit=crop&q=80&w=2070", // Mining operations
-  realEstate: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070", // Modern office building
-  warehousing: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=2070", // Warehouse
-  leadership: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=2070", // Professional portrait placeholder
-  about: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2070", // Modern office interior
+  hero: `${CLOUDINARY_CONFIG.baseUrl}hero_image`, 
+  jute: `${CLOUDINARY_CONFIG.baseUrl}jute_manufacturing`,
+  mining: `${CLOUDINARY_CONFIG.baseUrl}mining_operations`,
+  realEstate: `${CLOUDINARY_CONFIG.baseUrl}real_estate`,
+  warehousing: `${CLOUDINARY_CONFIG.baseUrl}warehousing`,
+  leadership: `${CLOUDINARY_CONFIG.baseUrl}leadership`,
+  about: `${CLOUDINARY_CONFIG.baseUrl}about_interior`,
 };
 
 export const CONTENT = {
