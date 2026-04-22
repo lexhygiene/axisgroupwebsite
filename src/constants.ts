@@ -8,7 +8,7 @@ export const IMAGES = {
   mining: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862191/52e4f51e-e3f7-4f82-90ed-fc96c1977158.png", // Paste Mining image URL here
   realEstate: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862707/e93387bf-b140-4b5c-b734-fb928e7088f0.png", // Paste Real Estate image URL here
   warehousing: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862744/aac93a79-bccc-47a1-922e-27acc9803104.png", // Paste Warehousing image URL here
-  leadership: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776863007/51065f5e-65c6-4aff-bc91-49859fbaaae3.png", // Paste Leadership portrait URL here
+  leadership: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776884416/446d3335-aaa2-4369-85c3-79b469502ea1.png", // Paste Leadership portrait URL here
   about: "https://res.cloudinary.com/dgt6ktxld/image/upload/v1776862967/05af8a48-b811-439f-9267-4b44bc52e637.png", // Paste About page image URL here
 };
 
