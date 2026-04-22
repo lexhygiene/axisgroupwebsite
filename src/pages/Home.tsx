@@ -410,20 +410,11 @@ const ContactSection = () => {
               </div>
               <div className="flex items-start gap-6">
                 <div className="w-12 h-12 rounded-2xl bg-luxury-cream flex items-center justify-center flex-shrink-0">
-                  <Phone className="text-green-deep" size={20} />
-                </div>
-                <div>
-                  <div className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Call Us</div>
-                  <div className="text-lg font-medium text-slate-900">+91 (0) 33 2230 0000</div>
-                </div>
-              </div>
-              <div className="flex items-start gap-6">
-                <div className="w-12 h-12 rounded-2xl bg-luxury-cream flex items-center justify-center flex-shrink-0">
                   <MapPin className="text-green-deep" size={20} />
                 </div>
                 <div>
                   <div className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Visit Us</div>
-                  <div className="text-lg font-medium text-slate-900">Kolkata, West Bengal, India</div>
+                  <div className="text-lg font-medium text-slate-900">New Delhi, Kolkata, Gurgaon</div>
                 </div>
               </div>
             </div>
