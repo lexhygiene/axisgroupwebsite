@@ -12,17 +12,22 @@ RUN npm run build
 # Production stage
 FROM nginx:stable-alpine
 
+# Remove default nginx static assets
+RUN rm -rf /usr/share/nginx/html/*
+
+# Copy static assets from build stage
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# Add nginx config to handle SPA routing if needed
-RUN echo 'server { \
-    listen 80; \
-    location / { \
-        root /usr/share/nginx/html; \
-        index index.html index.htm; \
-        try_files $uri $uri/ /index.html; \
-    } \
-}' > /etc/nginx/conf.d/default.conf
+# Custom nginx config for SPA
+RUN printf 'server {\n\
+    listen 80;\n\
+    server_name localhost;\n\
+    location / {\n\
+        root /usr/share/nginx/html;\n\
+        index index.html index.htm;\n\
+        try_files $uri $uri/ /index.html;\n\
+    }\n\
+}\n' > /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
